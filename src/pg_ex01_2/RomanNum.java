@@ -29,7 +29,8 @@ public class RomanNum {
 	public static String convertRomanNum(int num) {
 		String roman_num="";
 		if ( num <= 0 || num >= 21 ) {
-			System.out.println("1以上20以下の数字を指定して下さい");
+			System.out.println("変換できません。");
+			System.out.println("1以上20以下の数字を指定して下さい。");
 		}else{
 			int num_x = num / 10; // 左に並ぶXの数
 			int ichinokurai = num % 10; // アラビア数字の一の位
@@ -53,7 +54,7 @@ public class RomanNum {
 		}
 		return roman_num;
 	}
-	/**
+	/**12
 	 * addCharacter は、文字列に文字列を特定回数だけ追加します
 	 * @param str　元の文字列
 	 * @param s　追加する文字列
@@ -62,7 +63,7 @@ public class RomanNum {
 	 */
 	public static String addCharacter(String str, String s, int n) {
 		for (int i = 0; i < n; i++) {
-			str = str + s;
+			str += s;
 		}
 		return str;
 	}
