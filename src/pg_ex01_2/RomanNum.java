@@ -40,6 +40,7 @@ public class RomanNum {
 
 			/*
 			 * アラビア数字の一の位が4と9の時は特別扱い
+			 * 4の場合はIVを、9の場合はIXを追加
 			 */
 			if (ichinokurai == 4){
 				roman_num = addCharacter(roman_num, "IV", 1);
