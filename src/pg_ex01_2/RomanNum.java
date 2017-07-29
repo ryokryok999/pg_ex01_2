@@ -32,7 +32,7 @@ public class RomanNum {
 			System.out.println("変換できません。");
 			System.out.println("1以上20以下の数字を指定して下さい。");
 		}else{
-			int num_x = num / 10; // 左に並ぶXの数
+			int num_x = num / 10;        // 左に並ぶXの数
 			int ichinokurai = num % 10; // アラビア数字の一の位
 			int num_v = ichinokurai / 5; // Xの次に並ぶVの数
 			int num_i = ichinokurai % 5; // Vの次に並ぶIの数
