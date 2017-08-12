@@ -33,4 +33,8 @@ public class RomanNumTest {
 			assertEquals(rnum[i], RomanNum.convertRomanNum(i + 1));
 		}
 	}
+	@Test
+	public void testConvertRomanNumLargerThan21() {
+		assertEquals("", RomanNum.convertRomanNum(21));
+	}
 }
