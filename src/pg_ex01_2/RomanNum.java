@@ -29,8 +29,7 @@ public class RomanNum {
 	public static String convertRomanNum(int num) {
 		String roman_num="";
 		if ( num <= 0 || num >= 21 ) {
-			System.out.println("変換できません。");
-			System.out.println("1以上20以下の数字を指定して下さい。");
+			return "変換できません";
 		}else{
 			int num_x = num / 10;        // 左に並ぶXの数
 			int ichinokurai = num % 10;  // アラビア数字の一の位
