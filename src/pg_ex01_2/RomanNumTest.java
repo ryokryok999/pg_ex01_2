@@ -35,10 +35,10 @@ public class RomanNumTest {
 	}
 	@Test
 	public void testConvertRomanNumNull21() {
-		assertEquals("", RomanNum.convertRomanNum(21));
+		assertEquals("変換できません。", RomanNum.convertRomanNum(21));
 	}
 	@Test
 	public void testConvertRomanNumNull0() {
-		assertEquals("", RomanNum.convertRomanNum(0));
+		assertEquals("変換できません。", RomanNum.convertRomanNum(0));
 	}
 }
